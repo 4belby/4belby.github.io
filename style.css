@@ -1,0 +1,140 @@
+ul{
+    list-style: none;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;  /* Preferred icon size */
+  color:#00cc00;
+}
+.text-shadow{
+        text-shadow: 0px 1px 8px rgba(0,0,0,0.4);
+}
+.bg__header_img{
+    background-image: url(img/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.font__Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.font__Green{
+    color:#00cc00;
+}
+.bg__Green{
+    background-color:#00cc00;
+}
+sup{
+    top:0.4em;
+}
+.font__Impact{
+     font-family: 'Impact';
+}
+.podpisb{
+    border-top: 1px solid rgba(62, 62, 62, 0.71);
+}
+.navbar-brand{
+    text-transform: uppercase;
+   
+}
+.navbar a{
+    color:white;
+}
+
+.bg-why-we{
+    background-image: url(img/why-we.jpg);
+    background-position: right;
+    filter: opacity(90%);
+    background-position-y:70px;
+    background-repeat: no-repeat;
+    
+}
+.bg-help{
+    background-image: url(img/help.jpg);
+    background-position: right;
+    filter: opacity(90%);
+    background-position-y:80px;
+    background-repeat: no-repeat;
+    
+}
+
+.header-font-size-1{
+    font-size:72pt;
+}
+
+.header-font-size-2{
+        font-size: 30pt !important;
+    }
+.header-font-size-3{
+        font-size: 24pt !important;
+    }
+.text-size{
+ font-size:16pt;   
+}
+@media screen and (max-width: 1200px) {
+ .header-font-size-1{
+        font-size: 56pt !important;
+    }
+ .header-font-size-2{
+        font-size: 28pt !important;
+    }
+ .header-font-size-3{
+        font-size: 24pt !important;
+    }
+    .text-size{
+     font-size:16pt;   
+    }
+}
+@media screen and (max-width: 992px) { 
+ .header-font-size-1{
+        font-size: 42pt !important;
+    }
+  .header-font-size-2{
+        font-size: 24pt !important;
+    }    
+    .header-font-size-3{
+        font-size: 20pt !important;
+    }
+  .text-size{
+     font-size:14pt;   
+    }
+} 
+@media screen and (max-width: 768px) { 
+ .header-font-size-1{
+        font-size: 36pt !important;
+    }
+  
+ .header-font-size-2{
+        font-size: 20pt !important;
+    }
+    .header-font-size-3{
+        font-size: 16pt !important;
+    }
+ .text-size{
+     font-size:12pt;   
+    }
+    .bg-why-we{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .header-font-size-1{
+        font-size: 30pt !important;
+    }
+    .header-font-size-2{
+        font-size: 20pt !important;
+    }
+    .header-font-size-3{
+        font-size: 16pt !important;
+    }
+    .text-size{
+     font-size:12pt;   
+    }
+  .bg-why-we{
+       background-image: none;
+    }
+}
